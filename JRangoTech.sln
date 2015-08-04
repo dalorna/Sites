@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JRangoTech", "JRangoTech\JRangoTech.csproj", "{CE89EB49-1561-441D-B39C-661491E55C68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JRangoTech.Tests", "JRangoTech.Tests\JRangoTech.Tests.csproj", "{BB0C9E0C-30A0-41DB-9225-EE0C5099DAEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{F243FC21-9559-4493-9581-D6891DAA61FC}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{84C86DF8-B319-4152-B546-843B1D64B6FF}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\JRangoTech-WAWS-dev.json = PublishScripts\Configurations\JRangoTech-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE89EB49-1561-441D-B39C-661491E55C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE89EB49-1561-441D-B39C-661491E55C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE89EB49-1561-441D-B39C-661491E55C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE89EB49-1561-441D-B39C-661491E55C68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB0C9E0C-30A0-41DB-9225-EE0C5099DAEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB0C9E0C-30A0-41DB-9225-EE0C5099DAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB0C9E0C-30A0-41DB-9225-EE0C5099DAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB0C9E0C-30A0-41DB-9225-EE0C5099DAEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84C86DF8-B319-4152-B546-843B1D64B6FF} = {F243FC21-9559-4493-9581-D6891DAA61FC}
+	EndGlobalSection
+EndGlobal
